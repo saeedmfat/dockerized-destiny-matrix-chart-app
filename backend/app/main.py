@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from core.matrix_calculator import (
+from backend.core.matrix_calculator import (
     calculate_life_path_number,
     get_destiny_interpretation
 )
