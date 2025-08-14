@@ -1,9 +1,10 @@
+import os
 from sqlalchemy import create_engine, Column, Integer, String, DateTime
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from datetime import datetime
 
-SQLALCHEMY_DATABASE_URL = "postgresql://matrix_user:securepassword123@localhost/destiny_matrix"
+SQLALCHEMY_DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://matrix_user:securepassword123@localhost/destiny_matrix")
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
