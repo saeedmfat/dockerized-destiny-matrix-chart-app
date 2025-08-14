@@ -6,8 +6,6 @@
 [![License](https://img.shields.io/badge/license-MIT-purple.svg)](LICENSE)
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/saeedmfat/dockerized-destiny-matrix-chart-app)
 
-🔗 **Live Demo**: [https://matrix.saeedmfat.ir](https://matrix.saeedmfat.ir)  
-📦 **Repository**: [https://github.com/saeedmfat/dockerized-destiny-matrix-chart-app](https://github.com/saeedmfat/dockerized-destiny-matrix-chart-app)
 
 ![System Architecture](https://raw.githubusercontent.com/saeedmfat/dockerized-destiny-matrix-chart-app/main/docs/architecture.png)
 
