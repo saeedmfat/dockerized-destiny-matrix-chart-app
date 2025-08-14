@@ -22,6 +22,14 @@ services:
       - postgres_data:/var/lib/postgresql/data
     ports:
       - "5432:5432"
+  db-init:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    command: python backend/app/db_init.py
+    environment:
+      - DATABASE_URL=postgresql://matrix_user:securepassword123@db/destiny_matrix
 
 volumes:
   postgres_data:
