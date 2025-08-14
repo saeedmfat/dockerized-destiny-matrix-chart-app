@@ -90,5 +90,4 @@ graph LR
 ## 📜 License
 MIT © [Saeed Marefat](https://github.com/saeedmfat)
 
-## 🌟 Special Thanks
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge)](https://buymeacoffee.com/saeedmfat)
+# tonight is the night
