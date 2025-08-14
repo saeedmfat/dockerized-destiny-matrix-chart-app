@@ -7,7 +7,6 @@
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/saeedmfat/dockerized-destiny-matrix-chart-app)
 
 
-![System Architecture](https://raw.githubusercontent.com/saeedmfat/dockerized-destiny-matrix-chart-app/main/docs/architecture.png)
 
 ## ✨ Key Features
 
