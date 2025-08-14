@@ -38,3 +38,17 @@ async def calculate_destiny(data: DestinyMatrixRequest):
 @app.get("/health")
 async def health_check():
     return {"status": "healthy"}
+
+from database import SessionLocal, Calculation
+
+# Add to your calculate_destiny endpoint:
+db = SessionLocal()
+db_calculation = Calculation(
+    birth_day=data.birth_day,
+    birth_month=data.birth_month,
+    birth_year=data.birth_year,
+    life_path_number=life_path
+)
+db.add(db_calculation)
+db.commit()
+db.refresh(db_calculation)
