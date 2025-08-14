@@ -3,7 +3,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from datetime import datetime
 
-SQLALCHEMY_DATABASE_URL = "postgresql://matrix_user:securepassword123@localhost/destiny_matrix"
+SQLALCHEMY_DATABASE_URL = "postgresql://matrix_user:securepassword123@localhost/destiny_matrix?options=-csearch_path%3Dmatrix_schema"
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
