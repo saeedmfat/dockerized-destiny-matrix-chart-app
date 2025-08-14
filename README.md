@@ -59,10 +59,6 @@ docker-compose -f docker-compose.prod.yml up -d
 
 </div>
 
-## 📊 Live Monitoring (Screenshots)
-
-![Grafana Dashboard](https://raw.githubusercontent.com/saeedmfat/dockerized-destiny-matrix-chart-app/main/docs/grafana.png)
-
 Access locally:
 - Prometheus: `http://localhost:9090`
 - Grafana: `http://localhost:3000` (admin/admin)
